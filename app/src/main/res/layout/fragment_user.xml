@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/imguser"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/bg_circle" />
+
+    <TextView
+        android:visibility="gone"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Breeshy Sama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtusername"
+        android:textSize="24dp"
+        android:textStyle="normal|bold" />
+
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="breesh.comsci@gmail.com"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtemail" />
+
+    <TextView
+        android:visibility="gone"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="0888888888"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txttel" />
+
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:text="Logout"
+        android:backgroundTint="#FFFFFF"
+        android:padding="16dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnlogout" />
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:paddingBottom="16dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="80dp"
+        android:layout_toEndOf="@+id/imgmenu"
+        android:layout_toRightOf="@+id/imgmenu"
+        android:padding="8dp"
+        android:text="Capuchino (เย็น)"
+        android:textColor="#566069"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:id="@+id/imgmenu"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="8dp"
+        android:background="#efefef" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:padding="8dp"
+        android:text="50฿"
+        android:textColor="#33393e"
+        android:textSize="16dp" />
+
+    <com.hrules.horizontalnumberpicker.HorizontalNumberPicker
+        android:id="@+id/horizontal_number_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/imgmenu"
+        android:layout_toEndOf="@+id/imgmenu" />
+
+
+</RelativeLayout>

@@ -1,0 +1,137 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.servewellsolution.app.leafood.Mapsetting">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55dp">
+
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="MissingConstraints">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@+id/relativeLayout">
+
+                <RelativeLayout
+                    android:visibility="gone"
+                    android:id="@+id/idminorder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|center_vertical"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/bg_dash"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/txtminorder"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="คุณต้องมีค่าอาหารมากกว่า 400 บาทขึ้นไป"
+                        android:textAlignment="center"
+                        android:textColor="#C22134"
+                        android:textSize="18dp" />
+                </RelativeLayout>
+
+                <ListView
+                    android:id="@+id/listView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="top"
+                    android:layout_marginTop="0dp"
+                    android:dividerHeight="1dp" />
+
+            </LinearLayout>
+
+
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:background="#FFFFFF"
+                app:layout_constraintBottom_toTopOf="@+id/btnnext"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:gravity="center_vertical"
+                    android:text="ยอดที่ต้องชำระ"
+                    android:textColor="#454545"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txtsummary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:gravity="center_vertical"
+                    android:text="2,045฿"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="normal|bold" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btnnext"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:background="@drawable/btnorder"
+
+                android:text="ดำเนินการสั่งซื้อ"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+
+
+        </android.support.constraint.ConstraintLayout>
+    </FrameLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
+
+

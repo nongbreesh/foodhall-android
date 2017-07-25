@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "1032426724816",
+    "firebase_url": "https://leafood-ab82e.firebaseio.com",
+    "project_id": "leafood-ab82e",
+    "storage_bucket": "leafood-ab82e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032426724816:android:ff41a9ef9f868c00",
+        "android_client_info": {
+          "package_name": "com.servewellsolution.app.bananaleaf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032426724816-g74km4k9f72p28c19ip73kf8igbghbvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF2E0io_Q45k-d_E5APxYMpLXAFr3jOTY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032426724816:android:bd5172a40fa9082d",
+        "android_client_info": {
+          "package_name": "com.servewellsolution.app.leafood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032426724816-g74km4k9f72p28c19ip73kf8igbghbvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF2E0io_Q45k-d_E5APxYMpLXAFr3jOTY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

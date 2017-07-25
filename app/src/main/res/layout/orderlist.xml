@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/button_border_gray"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/myfeed_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <FrameLayout
+                    android:id="@+id/frameLayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="0dp">
+
+                    <TextView
+                        android:id="@+id/txt_orderno"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Order #1993938"
+                        android:textColor="#000000"
+                        android:textSize="16dp" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/txt_ordertime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/frameLayout2"
+                    android:layout_alignStart="@+id/frameLayout2"
+                    android:layout_below="@+id/frameLayout2"
+                    android:layout_marginTop="0dp"
+                    android:paddingBottom="5dp"
+                    android:paddingRight="0dp"
+                    android:text="9 Nov 2015 07:21"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#ff585858"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/txt_orderstatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="รอร้านค้าตอบรับ"
+                    android:textColor="#ff585858"
+                    android:textSize="14dp"
+                    android:layout_below="@+id/frameLayout2"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/ic_check"
+                    android:id="@+id/imageView4"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_below="@+id/frameLayout2"
+                    android:layout_toLeftOf="@+id/txt_orderstatus"
+                    android:layout_toStartOf="@+id/txt_orderstatus" />
+            </RelativeLayout>
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

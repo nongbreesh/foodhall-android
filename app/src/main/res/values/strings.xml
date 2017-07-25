@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">FoodHall</string>
+    <string name="apiaddress">http://leafood.servewellsolution.com/</string>
+    <string name="imageaddress">http://leafood.servewellsolution.com/public/uploads/shop_img/</string>
+
+    <!--<string name="apiaddress">http://192.168.1.10/api/</string>-->
+    <!--<string name="imageaddress">http://192.168.1.10/api/public/uploads/shop_img/</string>-->
+
+
+    <!--<string name="apiaddress">http://192.168.43.248/api/</string>-->
+    <!--<string name="imageaddress">http://192.168.43.248/api/public/uploads/shop_img/</string>-->
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="facebook_app_id">1178208135584370</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="GPSAlertDialogTitle">GPSAlertDialogTitle</string>
+    <string name="GPSAlertDialogMessage">GPSAlertDialogMessage</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
